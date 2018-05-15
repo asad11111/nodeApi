@@ -1,0 +1,24 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Sample api building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node server.js"
+  },
+  "keywords": [
+    "Api",
+    "REST"
+  ],
+  "author": "Asad",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "pusher": "^1.5.1"
+  }
+}
