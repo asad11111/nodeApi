@@ -20,5 +20,13 @@
     "express": "^4.16.3",
     "mongoose": "^5.0.17",
     "pusher": "^1.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asad11111/nodeApi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asad11111/nodeApi/issues"
+  },
+  "homepage": "https://github.com/asad11111/nodeApi#readme"
 }
