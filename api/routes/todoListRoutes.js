@@ -9,6 +9,12 @@ module.exports = function(app) {
   app.get('/', (req, res) => {
     res.send('all good');
   });
+
+  app.post('/data', (req, res) => {
+    var data= req;
+    console.log(data);
+    res.json({data});
+  });
   
 
  
